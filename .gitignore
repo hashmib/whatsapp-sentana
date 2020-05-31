@@ -1,2 +1,4 @@
 # Exclude text files, we don't want you reading my chats :)
 *.txt
+
+__pycache__/

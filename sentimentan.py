@@ -1,10 +1,7 @@
 import pandas
-
-
-
+from processing import main as processed
 
 def main():
-    #todo: import whatsapp chat preprocess
     print("Hello world")
 
 

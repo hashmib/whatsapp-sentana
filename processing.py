@@ -31,7 +31,8 @@ def parseData(line_in):
         split_remainder = remainder.split(': ')
         author = split_remainder[0] 
         message = ' '.join(split_remainder[1:])
-
+        message = message.strip('\u200e')
+    
     # Author will return null for all raw text similar to "Bilal Hashmi created the group"
     else:
         author = None
